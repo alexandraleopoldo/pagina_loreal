@@ -122,13 +122,14 @@ section.conteudo_principal img {
 }
 @media (max-width: 900px) {
   section.conteudo_principal img {
-    width: 90%;
+    width: 80%;
+    margin-top: 10px;
   }
 }
 @media (max-width: 1200px) and (orientation: landscape) {
   section.conteudo_principal img {
-    width: 50%;
-    margin-top: 70px;
+    width: 60%;
+    margin-top: 20px;
   }
 }
 
@@ -230,5 +231,6 @@ section.conteudo_principal img {
 @media (max-width: 1200px) and (orientation: landscape) {
   .imagens_produtos--favoritos img {
     width: 20%;
+    height: 150px;
   }
 }/*# sourceMappingURL=style.css.map */

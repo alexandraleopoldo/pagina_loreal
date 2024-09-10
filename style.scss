@@ -117,12 +117,13 @@ section.conteudo_principal {
         object-fit: contain;
 
         @media (max-width:900px){
-            width: 90%;
+            width: 80%;
+            margin-top: 10px;
         }
 
         @media (max-width:1200px) and (orientation: landscape) {
-            width: 50%;
-            margin-top: 70px;
+            width: 60%;
+            margin-top: 20px;
         }
     }
 }
@@ -221,6 +222,7 @@ section.conteudo_principal {
 
         @media (max-width:1200px) and (orientation: landscape) {
             width: 20%;
+            height: 150px;
         }
     }
 
