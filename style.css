@@ -221,16 +221,19 @@ section.conteudo_principal img {
   }
 }
 @media (max-width: 900px) {
-  .imagens_produtos--favoritos img {
+  .imagens_produtos--favoritos figure {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
     width: 50%;
     height: 200px;
     -o-object-fit: contain;
        object-fit: contain;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 1200px) and (orientation: landscape) {
-  .imagens_produtos--favoritos img {
-    width: 20%;
-    height: 150px;
+  .imagens_produtos--favoritos figure {
+    height: 100px;
   }
 }/*# sourceMappingURL=style.css.map */

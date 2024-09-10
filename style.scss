@@ -204,27 +204,30 @@ section.conteudo_principal {
 .imagens_produtos--favoritos {
     @include flexbox();
     width: 50%;
-    
-
+   
     @media (max-width:900px){
         flex-wrap: wrap;
         width: 90%;
         align-items: center;
         margin: 40px 0;
+    
     }
-
-    img {
+    
+    figure {
         @media (max-width:900px){
+            @include flexbox();
+            justify-content: center;
             width: 50%;
             height: 200px;
             object-fit: contain;
+            margin-bottom: 40px;
         }
 
         @media (max-width:1200px) and (orientation: landscape) {
-            width: 20%;
-            height: 150px;
+            height: 100px;
         }
     }
+
 
 }
 
