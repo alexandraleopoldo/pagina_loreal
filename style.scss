@@ -93,7 +93,7 @@ ul {
         margin-top: 20px;
         font-size: 1.25rem;
     }
-    @media (max-width:1200px){
+    @media (min-width: 910px) and (max-width: 1200px){
         font-size: 0.87rem;
     }
     @media (max-width:1200px) and (orientation: landscape) {
