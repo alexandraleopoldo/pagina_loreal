@@ -94,6 +94,11 @@ ul {
     font-size: 1.25rem;
   }
 }
+@media (max-width: 1200px) {
+  ul {
+    font-size: 0.87rem;
+  }
+}
 @media (max-width: 1200px) and (orientation: landscape) {
   ul {
     line-height: 16px;
