@@ -94,7 +94,7 @@ ul {
     font-size: 1.25rem;
   }
 }
-@media (min-width: 910px) and (max-width: 1200px) {
+@media (min-width: 901px) and (max-width: 1200px) {
   ul {
     font-size: 0.87rem;
   }
